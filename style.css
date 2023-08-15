@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dcdde1;
+}   
+.main{
+    height: 100vh;
+    background-color: #dcdde1;
+}
+.container-fluid .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-fluid .row .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.container-fluid .row .col .card 
+{
+    box-shadow: 0 0 7px #000000;
+
+}
+
+.container-fluid .row .col img{
+    width: 18rem;
+    height: 13rem;
+}
+
+.container-fluid .row .col .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.display button{
+    font-size: 18px;
+    font-weight: 600;
+    padding:5px 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+.display button:hover{
+     background-color: #ddd;
+     color: #fff;
+     border-radius: 5px;
+}
+
+.container-fluid .row .col .card i{
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.display h1{
+    color: #fff;
+}
+
+.border-card{
+    border-top: 5px solid #fff;
+}
+
+.container-fluid .row .col .card .edit{
+    font-size: 18px;
+    font-weight: 600;
+    padding:5px 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #0097e6;
+    color: #dcdde1;
+    border-radius: 5px;
+}
+.container-fluid .row .col .card .edit:hover{
+    background-color: #00a8ff;
+    color: #dcdde1;
+    border-radius: 5px;
+}
+
+.container-fluid .row .col .card .dele{
+    font-size: 18px;
+    font-weight: 600;
+    padding:5px 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #c23616;
+    color: #dcdde1;
+    border-radius: 5px;
+}
+
+.container-fluid .row .col .card .dele:hover{
+    background-color: #e84118;
+    color: #dcdde1;
+    border-radius: 5px;
+}
+
+.container-fluid .row .col .card .upd{
+    font-size: 18px;
+    font-weight: 600;
+    padding:5px 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #17c0eb;
+    color: #dcdde1;
+    border-radius: 5px;
+}
+
+.container-fluid .row .col .card .upd:hover{
+    background-color: #18dcff;
+    color: #dcdde1;
+    border-radius: 5px;
+}
+
+.modal-body .form-control:focus{
+    box-shadow: none;
+}
+
+.modal-body .btn{
+    box-shadow: none;
+}
+
+
+
+
+
+
